@@ -4,8 +4,8 @@ import {
     MARKET_DATA_WIDGET_CONFIG,
     MARKET_OVERVIEW_WIDGET_CONFIG,
     TOP_STORIES_WIDGET_CONFIG
-} from "@/lib/contants"
-// import {sendDailyNewsSummary} from "@/lib/inngest/functions";
+} from "@/lib/contants";
+import {sendDailyNewsSummary} from "@/lib/inngest/functions";
 
 const Home = () => {
     const scriptUrl = `https://s3.tradingview.com/external-embedding/embed-widget-`;

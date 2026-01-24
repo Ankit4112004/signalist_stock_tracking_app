@@ -1,9 +1,9 @@
 'use client'
 
+import {NAV_ITEMS} from "@/lib/contants";
 import Link from "next/link";
-import { NAV_ITEMS } from "@/lib/contants";
-import { usePathname } from "next/navigation";
-
+import {usePathname} from "next/navigation";
+import SearchCommand from "@/components/SearchCommand";
 
 const NavItems = ({initialStocks}: { initialStocks: StockWithWatchlistStatus[]}) => {
     const pathname = usePathname()
